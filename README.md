@@ -1,2 +1,2 @@
-# predict_model
-build a predict model for the data
+# 预测调整
+依据长期预测数据调整短期预测
