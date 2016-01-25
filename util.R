@@ -8,6 +8,11 @@ read_two_columns = function(sheet, row_num){
 }
 
 exponent_interpolation = function(data, number){
+  # 将数据点进行指数差值
+  # data长度为2，number为差值后的数据长度
+  # 指数公式为 y = a * exp(x) + b
+  # 函数根据数值求解参数 a 和 b
+  
   n = length(data)
   if(n > 2){
     print( "数据有错误")
