@@ -101,4 +101,4 @@ result_database=data.frame(result_database, energy_c=values(energy_hash)[match(r
 
 
 # 输出数据
-write.xlsx2(result_database, file = '../scenario1_out.xlsx', sheetName = "alldata",append = F)
+# write.xlsx2(result_database, file = '../scenario1_out.xlsx', sheetName = "alldata",append = F)
