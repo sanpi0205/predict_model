@@ -28,5 +28,4 @@ exponent_interpolation = function(data, number){
     y = as.numeric(y)
     return(y)
   }
-
 }
