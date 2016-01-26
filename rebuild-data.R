@@ -66,9 +66,7 @@ for(name in energy_names){
 new_result$final$total - result$final$total
 
 
-
-
-
+# 转换成关系数据库格式，服务excel的数据透视表
 result_database = NULL
 for(i in names(new_result)){
   zz = melt(new_result[[i]], id.vars = 'year')
